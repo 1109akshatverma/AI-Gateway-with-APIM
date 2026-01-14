@@ -195,7 +195,7 @@ In this task, you will deploy and test the Model Context Protocol (MCP) using Az
 
     ![](./media/deploy-e3t2.png)
 
-    >**Note:** If the face any error, wait for few minutes and execute the cell again.
+    >**Note:** If you encounter any errors, wait a few minutes and then re-execute the cell.
 
 1. Next, scroll to **Get the deployment outputs** and **Run** the cell to retrieve key configuration details such as the Log Analytics Workspace ID, APIM URL, and MCP endpoint. These outputs will be used later to connect and test your MCP-enabled service.
 
@@ -274,7 +274,7 @@ In this lab, you will configure and test the Model Context Protocol (MCP) client
 
     ![](./media/deploy-e3t3.png)
 
-    >**Note:** If the face any error, wait for few minutes and execute the cell again.
+    >**Note:** If you encounter any errors, wait a few minutes and then re-execute the cell.
 
 1. Once the deployment is complete, scroll down to **Get the deployment outputs** and **run** the cell. This step retrieves all important configuration details from your Bicep deployment, including the APIM Gateway URL, Client Authorization Endpoint, Log Analytics Workspace ID, and any relevant identifiers or secrets.
 

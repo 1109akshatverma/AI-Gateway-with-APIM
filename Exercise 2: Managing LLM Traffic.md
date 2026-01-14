@@ -44,6 +44,8 @@ In this task, you will deploy APIM and Microsoft Foundry endpoints, set up model
 
    ![](./media/deploy-e2t1.png)
 
+   >**Note:** If you encounter any errors, wait a few minutes and then re-execute the cell.
+
 4. Run the cell **Get the deployment outputs**. This retrieves URLs, keys, and Application Insights names that are needed to interact with the deployed AI endpoints.
 
    ![](./media/outputs-e2t1.png)
@@ -138,6 +140,8 @@ In this task, you will deploy APIM, AI Foundry endpoints, and model subscription
 2. Run the cell **Create Deployment Using Bicep**. Deploy APIM, AI Foundry endpoints, and model subscriptions using Bicep. Automates resource provisioning and writes parameters to params.json.
 
    ![](./media/deploy-e2t2.png)
+
+   >**Note:** If you encounter any errors, wait a few minutes and then re-execute the cell.
 
 3. Run the cell **Get Deployment Outputs**. Retrieve APIM Service ID, API Gateway URL, subscription keys, and other deployment outputs. These values are required for testing and API calls.
   

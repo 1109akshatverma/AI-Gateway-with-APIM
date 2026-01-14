@@ -223,7 +223,9 @@ At the end, you know the deployment will run in the correct subscription.
 At the end, APIM, AI services, and model routing are provisioned.
 
    ![](./media/deploy-e1t2.png)
-   
+
+   >**Note**: If you encounter any errors, wait a few minutes and then re-execute the cell.
+
 6. Run the cell **Get Deployment Outputs**. Fetches outputs like APIM URLs, subscription keys, and workspace IDs from the deployment.
 At the end, all resource identifiers and API keys are available for testing the deployed services.
 
@@ -272,6 +274,8 @@ In this task, you will deploy and validate a multi-region Azure setup using Bice
 1. Run the **Create deployment using 🦾 Bicep** cell to deploy all required Azure resources using a Bicep template. This cell creates the resource group (if it doesn’t exist), generates deployment parameters, and provisions two AI Foundry instances, a GPT-4o-mini model in each, an API Management instance, and a backend pool. It sets up the initial environment for the lab, which you’ll later update to enable session affinity.
 
    ![](./media/deploy-e1t3.png)
+
+   >**Note**: If you encounter any errors, wait a few minutes and then re-execute the cell.
 
 1. Run the **Get the deployment outputs** cell to retrieve details from the completed Bicep deployment. This cell fetches key outputs such as the API Management gateway URL, service name, subscription keys, and deployed AI Foundry instances. It verifies that all resources were successfully created and confirms readiness for testing session affinity in later steps.
 

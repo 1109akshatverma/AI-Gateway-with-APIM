@@ -253,6 +253,8 @@ In this task, you will configure and validate the Content Safety policy in the A
 
     ![](./media/deploy-e5t3.png)
 
+    >**Note:** If you encounter any errors, wait a few minutes and then re-execute the cell.
+
 1. Once the deployment process is complete, scroll down to **Get the deployment outputs** and **Run** the cell to retrieve important information such as the APIM Service ID, Gateway URL, Content Safety Endpoint, and Subscription Key. These outputs will be used in subsequent steps to test and validate content safety behavior.
 
     ![](./media/outputs-e5t3.png)
