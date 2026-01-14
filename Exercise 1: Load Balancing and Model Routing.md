@@ -305,6 +305,6 @@ In this task, you will deploy and validate a multi-region Azure setup using Bice
 
 In this exercise, you successfully configured load balancing, model routing, and session affinity for Azure OpenAI endpoints using Azure API Management. You deployed multiple AI backends across regions, verified that APIM evenly distributed traffic among available endpoints, and confirmed that routing rules correctly directed requests to specific models. Finally, you enabled session affinity to maintain conversation context by ensuring that requests from the same client were consistently routed to the same backend. By completing this lab, you gained hands-on experience in designing a scalable, reliable, and context-aware AI Gateway capable of handling large-scale workloads while maintaining high availability and consistent AI interactions.
 
-### You have successfully completed the exercise. Click on Next >> to proceed with the next exercise.
+### You have successfully completed the exercise. Click on **Next >>** to proceed with the next exercise.
 
 ![](./media/nextpage-api.png)
