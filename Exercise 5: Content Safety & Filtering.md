@@ -113,7 +113,7 @@ These AI-powered features help organizations detect risks, prevent the spread of
 
 1. In this section, you can test the **Groundedness Detection** capability, which checks whether AI-generated responses are **factually based on provided source information**. You can choose between **Q&A** or **Summarization** tasks, then either select a sample or enter your own **grounding source**, **prompt**, and **model-generated completion**. The tool compares the completion against the source text to detect if any part of the answer is **ungrounded or incorrect**. You can also enable options to **view reasoning** behind the detection or **see correction suggestions** for improving ungrounded content. This helps ensure that AI responses remain accurate and supported by reliable information.
 
-    ![](./media/e5t1p20.png)
+    ![](./media/3.png)
 
 ### Task 1.5: Prompt shields
 
@@ -123,7 +123,7 @@ These AI-powered features help organizations detect risks, prevent the spread of
 
 1. In this section, you can test the **Prompt Shields** feature, which helps detect and prevent **prompt injection or jailbreak attacks** that attempt to manipulate an AI model’s behavior. You can select from the provided samples or enter your own **user prompt** and **document content** to simulate different attack scenarios. Examples include **safe content**, **user prompt attacks**, **document-based attacks**, and **combined prompt and document attacks**. After entering or selecting your test data, you can run the test to see how the model identifies and blocks malicious or manipulative prompts. This tool helps ensure that your AI system remains secure and resistant to indirect or harmful prompt-based exploits.
 
-    ![](./media/e5t1p22.png)
+    ![](./media/4.png)
 
 ### Task 1.6: Protected material detection
 
@@ -133,7 +133,7 @@ These AI-powered features help organizations detect risks, prevent the spread of
 
 1. In this section, you can explore the **Protected Material Detection for Text** feature, which helps identify and protect **copyrighted or third-party text** that may appear in AI-generated content. You can choose from the provided samples, such as **Protected lyrics** or **Protected recipes**, or upload your own text to analyze. The tool checks whether the input contains material that may belong to protected sources and flags it accordingly. Use this to ensure your AI outputs remain compliant with copyright and intellectual property guidelines by avoiding the reuse of protected text content.
 
-    ![](./media/e5t1p24.png)
+    ![](./media/5.png)
 
 ## Task 2: Specify content filters at request time using headers
 
