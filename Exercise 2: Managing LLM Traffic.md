@@ -64,7 +64,7 @@ In this task, you will deploy APIM and Microsoft Foundry endpoints, set up model
 
     ![](./media/analyze-e2t1.png)
 
-    >**Note:** If you get an error or the table doesn’t appear, wait a few minutes and run the cell again.
+    >**Note:** If you get an error or the table doesn’t appear, wait for few minutes and execute the cell again.
 
 8. Run the cell **Plot the custom metrics results**, this visualizes token usage over time to see trends, spikes, or anomalies.
 
@@ -90,7 +90,7 @@ In this task, you will deploy APIM and Microsoft Foundry endpoints, set up model
 
    ![](./media/rg-(2).png)
 
-1. In the left navigation pane, go to **Monitoring (1)** and then select **Metrics (2)**.
+1. From the left navigation pane, expand **Monitoring (1)** and then select **Metrics (2)**.
 
    ![](./media/e2t1-appin(1).png)
 
